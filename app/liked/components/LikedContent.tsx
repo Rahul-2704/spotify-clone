@@ -1,10 +1,10 @@
 "use client"
-import MediaItem from '@/app/components/MediaItem';
+import MediaItem from '@/components/MediaItem';
 import { useUser } from '@/hooks/useUser';
 import { Song } from '@/types'
 import { useRouter } from 'next/navigation';
 import {useEffect } from 'react'
-import LikedButton from '@/app/components/LikedButton';
+import LikedButton from '@/components/LikedButton';
 import React from 'react'
 interface likedContentProps{
     songs:Song[];
